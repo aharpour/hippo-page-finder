@@ -1,13 +1,13 @@
-package nl.anwb.online.tfinder;
+package net.sourceforge.hippopagefinder;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import nl.anwb.online.tfinder.utils.Constants;
-import nl.anwb.online.tfinder.utils.ReplacementUtil;
-import nl.anwb.online.tfinder.utils.ReplacementUtil.ReplacemnetItem;
+import net.sourceforge.hippopagefinder.utils.Constants;
+import net.sourceforge.hippopagefinder.utils.ReplacementUtil;
+import net.sourceforge.hippopagefinder.utils.ReplacementUtil.ReplacemnetItem;
 
 import org.hippoecm.hst.configuration.sitemap.HstSiteMapItem;
 

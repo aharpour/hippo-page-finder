@@ -1,7 +1,7 @@
 <taglib>
   <tlib-version>1.0</tlib-version>
   <short-name>template</short-name>
-  <uri>http://www.anwb.nl/hippo/template</uri>
+  <uri>http://hippopagefinder.sourceforge.net/tags.tld</uri>
   <jsp-version>2.0</jsp-version>
 
 
@@ -9,7 +9,7 @@
   <tag>
     <description>Lists all the pages using this template.</description>
     <name>find-pages</name>
-    <tag-class>nl.anwb.online.tfinder.tags.FindPages</tag-class>
+    <tag-class>net.sourceforge.hippopagefinder.tags.FindPages</tag-class>
     <body-content>JSP</body-content>
   </tag>
 

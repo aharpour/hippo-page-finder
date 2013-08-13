@@ -1,4 +1,4 @@
-package nl.anwb.online.tfinder;
+package net.sourceforge.hippopagefinder;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import javax.jcr.RepositoryException;
 
-import nl.anwb.online.tfinder.utils.Constants;
+import net.sourceforge.hippopagefinder.utils.Constants;
 
 import org.hippoecm.hst.configuration.site.HstSite;
 import org.hippoecm.hst.configuration.sitemap.HstSiteMap;

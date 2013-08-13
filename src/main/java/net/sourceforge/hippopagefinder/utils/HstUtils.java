@@ -1,4 +1,4 @@
-package nl.anwb.online.tfinder.utils;
+package net.sourceforge.hippopagefinder.utils;
 
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.core.component.HstRequest;

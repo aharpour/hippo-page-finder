@@ -1,5 +1,7 @@
 package nl.anwb.online.tfinder;
 
+import net.sourceforge.hippopagefinder.SiteMapTemplate;
+
 import org.junit.Assert;
 import org.junit.Test;
 

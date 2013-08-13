@@ -1,4 +1,4 @@
-package nl.anwb.online.tfinder.utils;
+package net.sourceforge.hippopagefinder.utils;
 
 import java.util.Iterator;
 import java.util.List;

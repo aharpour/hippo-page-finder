@@ -15,7 +15,7 @@
  *   
  *   Partially sponsored by Smile B.V
  */
-package nl.anwb.online.tfinder.utils;
+package net.sourceforge.hippopagefinder.utils;
 
 import java.io.IOException;
 import java.io.StringWriter;
