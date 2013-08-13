@@ -1,4 +1,4 @@
-package nl.anwb.online.tfinder.tags;
+package net.sourceforge.hippopagefinder.tags;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -10,9 +10,9 @@ import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
 
-import nl.anwb.online.tfinder.PageFinder;
-import nl.anwb.online.tfinder.utils.FreemarkerUtils;
-import nl.anwb.online.tfinder.utils.HstUtils;
+import net.sourceforge.hippopagefinder.PageFinder;
+import net.sourceforge.hippopagefinder.utils.FreemarkerUtils;
+import net.sourceforge.hippopagefinder.utils.HstUtils;
 
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
