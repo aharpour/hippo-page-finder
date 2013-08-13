@@ -40,7 +40,7 @@ import freemarker.template.TemplateException;
 
 
 /**
- * @author Ebrahim
+ * @author Ebrahim Aharpour
  *
  */
 public class FindPages extends TagSupport {
@@ -50,7 +50,7 @@ public class FindPages extends TagSupport {
 	private HstRequest hstRequest;
 	private HstResponse hstResponse;
 
-	private final static Template TEMPLATE = FreemarkerUtils.getTemplate("/nl/anwb/online/tfinder/tags/find-pages.ftl",
+	private final static Template TEMPLATE = FreemarkerUtils.getTemplate("/net/sourceforge/hippopagefinder/tags/find-pages.ftl",
 			FindPages.class);
 	private final static PageFinder PAGE_FINDER = new PageFinder();
 
