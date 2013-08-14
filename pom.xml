@@ -3,7 +3,7 @@
 
   <groupId>net.sourceforge.hippopagefinder</groupId>
   <artifactId>hippo-page-finder</artifactId>
-  <version>7.7.0</version>
+  <version>7.7.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Hippo page finder</name>
@@ -36,9 +36,9 @@
   </developers>
 
   <scm>
-    <url>https://sourceforge.net/p/hippopagefinder/code/6/tree/hippo-page-finder/tags/7.7.0</url>
-    <connection>scm:svn:http://svn.code.sf.net/p/hippopagefinder/code/hippo-page-finder/tags/7.7.0</connection>
-    <developerConnection>scm:svn:https://svn.code.sf.net/p/hippopagefinder/code/hippo-page-finder/tags/7.7.0</developerConnection>
+    <url>https://sourceforge.net/p/hippopagefinder/code/6/tree/hippo-page-finder/trunk/</url>
+    <connection>scm:svn:http://svn.code.sf.net/p/hippopagefinder/code/hippo-page-finder/trunk/</connection>
+    <developerConnection>scm:svn:https://svn.code.sf.net/p/hippopagefinder/code/hippo-page-finder/trunk/</developerConnection>
   </scm>
 
   <distributionManagement>
