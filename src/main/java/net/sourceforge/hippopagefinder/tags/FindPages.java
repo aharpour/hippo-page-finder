@@ -72,7 +72,11 @@ public class FindPages extends TagSupport {
 			if (requestContext.isPreview()) {
 				Map<String, Object> model = new HashMap<String, Object>();
 				model.put("contextPath", HstUtils.getContextPath(request));
-				model.put("mountPath", requestContext.getResolvedMount().getResolvedMountPath());
+				if (!requestContext.isCmsRequest()) {
+					model.put("mountPath", requestContext.getResolvedMount().getResolvedMountPath());
+				} else {
+					model.put("mountPath", "/_cmsinternal");
+				}
 				model.put("items", PAGE_FINDER.find(request));
 				TEMPLATE.process(model, out);
 			}
